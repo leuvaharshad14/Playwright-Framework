@@ -1,0 +1,19 @@
+[
+
+{"id":"1",
+"username":"test@abc.com",
+"password":"test1234",
+"message":"Email and Password Doesn't match"},
+
+{"id":"2",
+"username":"admin@email.com",
+"password":"",
+"message":"Password is required"},
+
+{"id":"3",
+"username":"",
+"password":"admin@123",
+"message":"Email is required"}
+
+
+]
