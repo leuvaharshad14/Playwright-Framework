@@ -19,7 +19,7 @@ for (const user of multiusers) {
 
         //expect(await loginpage.errorMessage()).tobe(user.message)
         expect(await loginpage.getErrorMessage()).toBe(user.message);
-       
+
 
 
 

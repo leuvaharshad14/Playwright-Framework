@@ -36,7 +36,7 @@ export class LoginPage extends BasePage {
 
     async getErrorMessage() {
         //return await this.errorMessage.textContent();
-        await this.gettext(this.errorMessage)
+        return await this.gettext(this.errorMessage)
 
     }
 

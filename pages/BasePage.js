@@ -22,7 +22,7 @@ export class BasePage {
     }
 
     async gettext(locator) {
-        await locator.textContent();
+        return await locator.textContent();
     }
 
     async uploadFile(locator, filepath) {

@@ -1,0 +1,2 @@
+user name is admin@email.com and password is  
+Password is required
